@@ -5,6 +5,6 @@ output_path <- paste0(getwd(), "/docs")
 
 # Use the paths in the export function
 shinylive::export(app_path, output_path)
-
-servr::httd("E:/GitHub/EpiShinyLive/docs")
+httpuv::runStaticServer("E:/GitHub/EpiShinyLiveW/docs")
+#servr::httd("E:/GitHub/EpiShinyLive/docs")
 
